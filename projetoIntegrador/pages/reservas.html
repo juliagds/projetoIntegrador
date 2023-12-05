@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Quinta do Ypuã</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="../css/style.css">
+   
+</head>
+<body>
+    <nav class="navbar">
+        
+        <img class="logo"src="../img/logo-pousada-quinta-do-ypua (1).webp" alt="logo"> 
+       
+<div></div>
+        <ul class="nav-links">
+        <a class="link" href="../index.html">home</a>
+        <a class="link" href="./reservas.html">reservas</a>
+        <a class="link" href="./acomodacoes.html">acomodações</a>
+        <a class="link" href="./hospedagem.html">hospedagem</a>
+        <a class="link" href="./funcionarios.html">login</a>
+        </ul>
+    </nav>
+    
+        <article>
+            <h1>Pousada Quinta do Ypuã</h1>
+        </article>
+        <div class="reservaSolic">
+            <h3>reservas</h3>
+        </div>
+   
+
+
+
+
+
+    <header>
+        <h1 class="header-title">Cadastro das reservas</h1>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">fazer reserva</button>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Acomodação</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente"
+                        required>
+                    <input type="email" id="email" class="modal-field" placeholder="e-mail do Cliente" required>
+                    <input type="text" id="celular" class="modal-field" placeholder="Celular do Cliente" required>
+                    <input type="text" id="acomodação" class="modal-field" placeholder="Acomodação escolhida" required>
+                    <input type="text" id="data" class="modal-field" placeholder="Data da reserva" required>
+                    <input type="text" id="hora" class="modal-field" placeholder="Hora da reserva" required>
+                
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <script src="../main.js"></script>
+    </body>
+    </html>

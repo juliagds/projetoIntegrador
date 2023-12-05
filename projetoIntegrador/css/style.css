@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+
+.logo{
+    height: 135px;
+    width: 100%;
+}
+
+nav{
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,  ;
+    transition: 0.50s;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none; 
+    display: flex;
+    gap: 185px; 
+    justify-content: center;
+    width: 100%;
+ 
+}
+article{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(116, 39, 6, 0.981);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(85, 58, 8, 0.826);
+    height: 100px;
+    width: 100%;
+}
+
+
+.fundo-img{
+    background-color: rgba(116, 39, 6, 0.981);
+    height: 1000px;
+    display: flex;
+}
+
+.fotos{
+    height: 405px;
+    justify-content: center;
+}
+
+/* PAGINA FUNCIONÁRIOS */
+.titulo-func{
+    font-size: 40px;
+    color:  rgba(85, 58, 8, 0.826);
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.preencherFunc{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    color: rgba(116, 39, 6, 0.981);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, ;
+}
+
+
+
+/* PAGINA RESERVAS */
+.reservaSolic{
+    font-size: 40px;
+    color:  rgba(85, 58, 8, 0.826);
+    display: flex;
+    justify-content: center;
+}
+
+:root{
+    --primary-color:rgba(116, 39, 6, 0.981);
+    --secundary-color: #FFF1CC;
+    --shadow-color: #CCC;
+    --text-color: #FFF;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'karla', sans-serif;
+    position:relative;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    box-shadow: 0 1px 2px var(--shadow-color);
+}
+
+.header-title{
+    color: white;
+    font-size: 2rem;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: 5vh auto;
+    padding: 50px;
+    box-shadow: 2px 2px 10px var(--shadow-color);
+    gap: 20px;
+}
+
+
+@media (max-width:480px){
+    header{
+        position:fixed;
+        width:100%;
+    }
+    .header-title{
+        font-size: 1.5rem;
+    }
+
+    main{
+        padding: 0;
+        margin: 20px 0 0 0;
+        width:100%;
+        box-shadow: none;
+    }
+}
+
