@@ -7,9 +7,9 @@
     <title>Pousada Quinta do Ypuã</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/records.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/records.css">
     <link rel="stylesheet" href="../css/style.css">
    
 </head>
@@ -27,16 +27,21 @@
         <a class="link" href="./funcionarios.html">login</a>
         </ul>
     </nav>
-    
-        <article>
+    <br>
+        <div class="titulo-pousada">
             <h1>Pousada Quinta do Ypuã</h1>
-        </article>
+        </div>
+
+        <br><br>
+        <br><br>
+
         <div class="reservaSolic">
             <h3>reservas</h3>
         </div>
+
+        <br><br>
+        <br><br>
    
-
-
 
 
 
@@ -44,16 +49,16 @@
         <h1 class="header-title">Cadastro das reservas</h1>
     </header>
     <main>
-        <button type="button" class="button blue mobile" id="cadastrarCliente">fazer reserva</button>
         <table id="tableClient" class="records">
             <thead>
-                <tr>
+                <tr class="topicos">
                     <th>Nome</th>
                     <th>E-mail</th>
                     <th>Celular</th>
                     <th>Acomodação</th>
                     <th>Data</th>
                     <th>Hora</th>
+                    <th>Quant. Pessoas</th>
                 </tr>
             </thead>
             <tbody>
@@ -63,7 +68,7 @@
         <div class="modal" id="modal">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h2>Novo Cliente</h2>
+                    <h2>Nova reserva</h2>
                     <span class="modal-close" id="modalClose">&#10006;</span>
                 </header>
                 <form id="form" class="modal-form">
@@ -74,6 +79,7 @@
                     <input type="text" id="acomodação" class="modal-field" placeholder="Acomodação escolhida" required>
                     <input type="text" id="data" class="modal-field" placeholder="Data da reserva" required>
                     <input type="text" id="hora" class="modal-field" placeholder="Hora da reserva" required>
+                    <input type="text" id="pessoas" class="modal-field" placeholder="Quantidade de pessoas" required>
                 
                 </form>
                 <footer class="modal-footer">

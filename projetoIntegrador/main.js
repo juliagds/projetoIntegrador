@@ -54,7 +54,8 @@ const saveClient = () => {
             celular: document.getElementById('celular').value,
             acomodação: document.getElementById('acomodação').value,
             data: document.getElementById('data').value,
-            hora: document.getElementById('hora').value
+            hora: document.getElementById('hora').value,
+            pessoas: document.getElementById('pessoas').value
         }
         const index = document.getElementById('nome').dataset.index
         if (index == 'new') {
@@ -78,6 +79,7 @@ const createRow = (client, index) => {
         <td>${client.acomodação}</td>
         <td>${client.data}</td>
         <td>${client.hora}</td>
+        <td>${client.pessoas}</td>
         <td>
             <button type="button" class="button green" id="edit-${index}">Editar</button>
             <button type="button" class="button red" id="delete-${index}" >Excluir</button>
@@ -104,6 +106,7 @@ const fillFields = (client) => {
     document.getElementById('acomodação').value = client.acomodação
     document.getElementById('data').value = client.data
     document.getElementById('hora').value = client.hora
+    document.getElementById('pessoas').value = client.pessoas
     document.getElementById('nome').dataset.index = client.index
 }
 
@@ -136,8 +139,6 @@ const editDelete = (event) => {
 updateTable()
 
 // Eventos
-document.getElementById('cadastrarCliente')
-    .addEventListener('click', openModal)
 
 document.getElementById('modalClose')
     .addEventListener('click', closeModal)
