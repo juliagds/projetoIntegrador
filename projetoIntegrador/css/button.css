@@ -13,11 +13,11 @@
     background-color: #1FB6FF;
 }
 
-button.green{
+.button.green{
     background-color: #13CE66;
 }
 
-button.red{
+.button.red{
     background-color: #FF4949;
 }
 
@@ -37,7 +37,7 @@ button.red{
         left: 80vw;
     }
     .button.mobile::before{
-        content: "+";
+        
         color:white;
         font-size:2rem;
         width:100%;

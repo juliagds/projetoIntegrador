@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousada Quinta do Ypuã</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/funcionarios.css">
 </head>
 <body>
     <nav class="navbar">
@@ -16,7 +16,6 @@
         <a class="link" href="../index.html">home</a>
         <a class="link" href="./reservas.html">reservas</a>
         <a class="link" href="./acomodacoes.html">acomodações</a>
-        <a class="link" href="./hospedagem.html">hospedagem</a>
         <a class="link" href="./funcionarios.html">login</a>
         </ul>
     </nav>
@@ -26,18 +25,18 @@
     </div>
     <br>
         <div class="titulo-func">
-            <h3>Funcionários:</h3>
+            <h3>Login Funcionários:</h3>
         </div>
  
-    <div class="preencherFunc">
+    <form class="formulario">
         <label for="email">E-mail:</label>
-        <input type="text" id="email" name="email" placeholder="Digite o e-mail:"><br>
-        <label for="name">Senha:</label>
-        <input type="text" id="senha"  maxLength="8" required placeholder="Digite a senha:"><br><br>
-        <input type="submit" value="Enviar">
+        <input type="text" id="email" name="email" placeholder="Digite o e-mail:" required><br>
+        <label for="password">Senha:</label>
+        <input type="text" id="password" maxLength="8" placeholder="Digite a senha:" required><br><br>
+        <button type="submit" onclick="isEmailValid()">Enviar</button>
 
-    </div>
-        <script src="../index.js" defer></script>
+    </form>
+        <script src="../js/funcionarios.js" defer></script>
 
     
     </body>

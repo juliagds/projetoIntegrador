@@ -3,9 +3,9 @@ body{
 }
 
 .logo{
-    height: 125px;
-    width: 100%;
     display: flex;
+    width:auto;
+    
 }
 
 nav{
@@ -48,7 +48,6 @@ nav{
     display: flex;
     align-items: center;
     background-color: rgba(85, 58, 8, 0.826);
-    height: 100px;
     width: 100%;
     
 }
@@ -56,33 +55,17 @@ nav{
 
 .fundo-img{
     background-color: rgba(116, 39, 6, 0.981);
-    height: 1000px;
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .fotos{
-    height: 405px;
+    height: 300px;
     justify-content: center;
+    align-items: center;
 }
-
-/* PAGINA FUNCIONÁRIOS */
-.titulo-func{
-    font-size: 45px;
-    color:  rgba(85, 58, 8, 0.826);
-    display: flex;
-    justify-content: center;
-   
-
-}
-
-.preencherFunc{
-    font-size: 30px;
-    justify-content: center;
-    text-align: center;
-    color: rgba(116, 39, 6, 0.981);
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, ;
-}
-
 
 
 /* PAGINA RESERVAS */
@@ -151,3 +134,32 @@ main{
     }
 }
 
+/* PAGINA DE ACOMODAÇÕES */
+.acomodacoes{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+}
+
+.titulo-acomodacoes{
+        font-size: 70px;
+        color:  rgba(85, 58, 8, 0.826);
+        display: flex;
+        justify-content: center;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,   ;
+}
+
+.status{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgba(85, 58, 8, 0.826);
+}
+
+
+
+
+
+
+
+  
+  

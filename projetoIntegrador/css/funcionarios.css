@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+
+.logo{
+    height: 100px;
+    
+}
+
+nav{
+    text-decoration: none; 
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,  ;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+   
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none; 
+    display: flex;
+    gap: 185px; 
+    justify-content: center;
+    width: 100%;
+   
+ 
+}
+.titulo-pousada{
+    text-align: center;
+    font-size: 45px;
+    color: rgba(116, 39, 6, 0.981);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,  ;
+    font-weight: bold;
+}
+.navbar{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(85, 58, 8, 0.826);
+    width: 100%;
+    
+}
+
+
+.fundo-img{
+    background-color: rgba(116, 39, 6, 0.981);
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.fotos{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PAGINA FUNCIONÁRIOS */
+.titulo-func{
+    font-size: 45px;
+    color:  rgba(85, 58, 8, 0.826);
+    display: flex;
+    justify-content: center;
+   
+
+}
+.formulario{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    gap: 10px;
+    font-size: 25px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select{
+    width: 100%;
+    border: 2px solid  rgba(116, 39, 6, 0.981);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(116, 39, 6, 0.981); 
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
