@@ -1,9 +1,9 @@
-const formulario = document.querySelector("#formulario");
-const email = document.querySelector("#email");
-const password = document.querySelector("#password");
+const form = document.querySelector("#form");
+const email = document.getElementById("email");
+const password = document.getElementById("password");
 
 // // validação
- formulario.addEventListenerr("submit", (event) => {
+ form.addEventListenerr("submit", (event) => {
     event.preventDefault();
 
 // // Se estiver vazio
@@ -16,7 +16,7 @@ const password = document.querySelector("#password");
  // verificar email
 
 // // se estiver tudo preenchido
-     formulario.submit();
+     form.submit();
  })
 
  // regex para validar email
